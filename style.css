@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#text-container {
+    font-size: 24px;
+    margin-bottom: 20px;
+    white-space: pre-wrap; /* Boşluk ve satır sonlarını korur */
+    font-family: monospace; /* ASCII sanatının düzgün görünmesi için */
+}
+
